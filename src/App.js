@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 
 
@@ -7,11 +7,22 @@ function App() {
     <div>
       <h1>Hello</h1>
       <button onClick={
-        ()=> alert('Button Pressed')
+        ()=> alert('First Button Pressed')
         }>
-          Button
+          First Button
       </button>
-      <light />
+      
+      <button onClick={
+        ()=> alert('Second Button Pressed')
+        }>
+          Second Button
+      </button>
+
+      <button onClick={
+        ()=> alert('Third Button Pressed')
+        }>
+          Third Button
+      </button>
     </div>
   );
 }
