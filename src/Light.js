@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function light() {
+function light(props) {
     return (
     <div>
-        
+        <h3>The Background Colour is = {props.setColor}</h3>
     </div>
     );
 }
