@@ -28,9 +28,9 @@ jobs:
         Version: 12
  
     - name: Install Yarn
-      uses: Borales/actions-yarn@v2.3.0
+      uses: Borales/actions-yarn@v2.1.0
       with:
-        cmd: Install
+        cmd: install
         
     - name: Build Yarn
       run: yarn build
