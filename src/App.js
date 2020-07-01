@@ -11,13 +11,13 @@ function App() {
         }>
           First Button
       </button>
-      
+      <br />
       <button onClick={
         ()=> alert('Second Button Pressed')
         }>
           Second Button
       </button>
-
+      <br />
       <button onClick={
         ()=> alert('Third Button Pressed')
         }>
