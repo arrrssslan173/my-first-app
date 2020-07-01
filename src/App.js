@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div>
+      <h1>Calculator</h1>
       <h1>The Primary Number is = {number}</h1>
       <button class="btn" onClick={
         ()=> setNumber(number+1)
