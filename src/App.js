@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Light from './Light.js';
 
 function App() {
   return (
     <div>
-      <h1>Hello Everyone</h1>
+      <light />
     </div>
   );
 }
