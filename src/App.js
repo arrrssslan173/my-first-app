@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
-import Light from './Light.js';
+import Light from './light.js';
 
 function App() {
   return (
     <div>
+      <h1>Hello</h1>
+      <button onClick={
+        ()=> alert('Button Pressed')
+        }>
+          Button
+      </button>
       <light />
     </div>
   );

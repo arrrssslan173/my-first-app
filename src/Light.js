@@ -1,10 +1,11 @@
-import React, { useState} from 'react';
+import React, {useState} from 'react';
 
-function light (){
-    const state = useState(true);
-    return(
-    <button>Switch Light</button>
-    )
+function light() {
+    return (
+    <div>
+        
+    </div>
+    );
 }
 
-export default Light;
+export default light;
