@@ -5,9 +5,14 @@ function Light () {
     
     let [isLit, setLit] = useState(false)
 
+    function updateLit(){
+        setLit(!isLit);     
+    }
     return (
     <div>
         <h1>The Room is:  {isLit ? 'Lit' : 'Dark'} </h1>
+
+        <button className='btn' onClick={updateLit}>Switch Light</button>
     </div>
     );
 }
