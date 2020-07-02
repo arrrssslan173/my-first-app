@@ -12,7 +12,7 @@ function Light () {
     <div>
         <h1>The Room is:  {isLit ? 'Lit' : 'Dark'} </h1>
 
-        <button className='btn' onClick={updateLit}>Switch Light</button>
+        <button className='btn2' onClick={updateLit}>Switch Light</button>
     </div>
     );
 }

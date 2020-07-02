@@ -41,7 +41,7 @@
 .btn{
   width: 150px;
   height: 50px;
-  background-color: peachpuff;
+  background-color: #C39BD3;
   padding: 15px;
   margin: 5px;
   font-style: bold;
@@ -50,4 +50,30 @@
 /*  float: center;*/
   font-size: 16px;
   font-weight: bold;
+}
+
+.btn2{
+  width: 150px;
+  height: 50px;
+  color:white;
+  background-color: #3498DB;
+  padding: 15px;
+  margin: 5px;
+  font-style: bold;
+  border-radius: 10px;
+  border: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  color:black;
+  background-color: white;
+  border: 1px solid;
+}
+
+.btn2:hover{
+  color:black;
+  background-color: white;
+  border: 1px solid;
 }

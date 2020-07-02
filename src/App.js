@@ -74,7 +74,7 @@ function App() {
       <button className="btn" onClick={
         ()=> setNumber(number+parseInt(prompt('Enter Custom Number:')))
         }>
-          Add Custom Number
+          Add Custom #
       </button>
 
       <hr />
