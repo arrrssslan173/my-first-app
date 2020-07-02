@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function light(props) {
+
+function Light () {
+    
+    let [isLit, setLit] = useState(false)
+
     return (
     <div>
-        <h3>The Background Colour is = {props.setColor}</h3>
+        <h1>The Room is:  {isLit ? 'Lit' : 'Dark'} </h1>
     </div>
     );
 }
 
-export default light;
+export default Light;
