@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import Light from './light.js';
+import Light from './light';
 
 function App() {
 
