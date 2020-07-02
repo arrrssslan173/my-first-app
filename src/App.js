@@ -80,7 +80,6 @@ function App() {
       <hr />
 
       <h1>Light Component</h1>
-      <br />
       <Light />
     </div>
   );
