@@ -1,27 +1,37 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function Lights () {
-    
+
     let [isLit, setLit] = useState(false);
-    let [color1, setColor1] = useState(0);
     
-    function updateLit(){
-        setLit(!isLit);     
-    }
-
-    function color(){
-        setColor1(!color1);
-    }
-
     return (
-    <div>
-        <h1>The Room is:  {isLit ? 'Lit' : 'Dark'} </h1>
-        <h1>The Bulb Color is: {color1 ? 'Yellow' : 'White'} </h1>
+    <div className={'room ' +(isLit?'lit':'dark')}>
 
+        <h1>The Room is:  <u>{isLit ? 'Lit' : 'Dark'}</u> and the Bulb is <u>{isLit ? 'On' : 'Off'}</u> </h1>
 
-        <button className='btn2' onClick={updateLit}>Switch Light</button>
         <br />
-        <button className='btn2' onClick={color}>Light Color</button>
+        
+        <button className='btn2' 
+            onClick={
+                ()=>
+                setLit(!isLit)
+            }>
+            Switch Light
+        </button>
+
+
+        <h1>The Room is:  <u>{isLit ? 'Lit' : 'Dark'}</u> and the Bulb is <u>{isLit ? 'On' : 'Off'}</u> </h1>
+
+        <br />
+        
+        <button className='btn2' 
+            onClick={
+                ()=>
+                setLit(!isLit)
+            }>
+            Switch Light
+        </button>
     </div>
     );
 }

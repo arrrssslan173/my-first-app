@@ -68,7 +68,6 @@ function Calculator() {
             Add Zero
         </button>
   
-  
         <button className="btn" onClick={
           ()=> setNumber(number+parseInt(prompt('Enter Custom Number:')))
           }>
