@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 function Light () {
     
     let [isLit, setLit] = useState(false);
