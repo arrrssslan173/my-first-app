@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import Lights from './lights.js';
 import Calculator from './calculator.js';
