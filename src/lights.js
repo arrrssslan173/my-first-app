@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Light () {
+function Lights () {
     
     let [isLit, setLit] = useState(false);
     let [color1, setColor1] = useState(0);
@@ -26,4 +26,4 @@ function Light () {
     );
 }
 
-export default Light;
+export default Lights;
