@@ -14,7 +14,6 @@ function Light () {
         setColor1(!color1);
     }
 
-
     return (
     <div>
         <h1>The Room is:  {isLit ? 'Lit' : 'Dark'} </h1>
