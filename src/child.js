@@ -1,9 +1,11 @@
 import React from 'react';
+import Parent from './parent.js';
 
-function Child(){
+function Child(props){
+    
     return (
     <div>
-        Child Component
+        <h2>Child Component number is: {props.num}</h2>
     </div>
     );
 }
