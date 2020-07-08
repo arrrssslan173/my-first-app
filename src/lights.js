@@ -12,15 +12,6 @@ function Lights () {
 
         <br />
         
-        <button className='btn2' 
-            onClick={
-                ()=>
-                setLit(!isLit)
-            }>
-            Switch Light
-        </button>
-
-
         <h1>The Room is:  <u>{isLit ? 'Lit' : 'Dark'}</u> and the Bulb is <u>{isLit ? 'On' : 'Off'}</u> </h1>
 
         <br />
