@@ -3,7 +3,7 @@ import React from 'react';
 function Parent(){
     return(
     <div>
-        <p1>Parent Component</p1>
+        <h1>Parent Component</h1>
     </div>
     );
 }
