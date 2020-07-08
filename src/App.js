@@ -8,6 +8,7 @@ function App(){
     <div>
       <Calculator />
       <Lights />
+      <Parent />
     </div>
   );
 }
