@@ -1,5 +1,4 @@
 import React from 'react';
-import Parent from './parent.js';
 
 function Child(props){
     
