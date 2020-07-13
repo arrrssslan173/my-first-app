@@ -1,93 +1,113 @@
-.App {
+body{
+  background-image: url('./milky-way-2695569_1920.png');
+  background-size: cover;
+}
+
+.container{
+  position: absolute;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  padding: 10px 50px;
+  box-shadow: 5px 5px 10px black;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  max-width: 300px fit-content;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+.header a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: 32px;
+}
+
+.bal{
+  color: #1F618D;
+  text-align: center;
+  font-size: 28px;
+  margin-top: -10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.summary-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 4px black;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trans-history{
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.btn{
-  width: 150px;
-  height: 50px;
-  background-color: #C39BD3;
-  padding: 15px;
-  margin: 5px;
-  font-style: bold;
-  border-radius: 10px;
-  border: white;
-/*  float: center;*/
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.btn2{
-  width: 150px;
-  height: 50px;
-  color:white;
-  background-color: #3498DB;
-  padding: 15px;
-  margin: 5px;
-  font-style: bold;
-  border-radius: 10px;
-  border: white;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.btn:hover{
-  color:black;
-  background-color: white;
-  border: 1px solid;
-}
-
-.btn2:hover{
-  color:black;
-  background-color: white;
-  border: 1px solid;
-}
-
-.room{
-  background: 100%vh;
-}
-
-.dark{
+.transac:hover{
   background-color: black;
   color: white;
 }
 
-.lit{
-  background-color: #F1C40F;
+.trans-history li{
+  padding: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  list-style: none;
+}
+
+#red{
+  color: #E74C3C;
+  margin-right: 30px;
+}
+
+#green{
+  color: #27AE60;
+  margin-left: 30px;
+}
+
+.lbl{
   color: black;
+  text-align: left;
+}
+
+.input{
+  width: 100%;
+  margin: 3px 0 3px 0;
+  padding: 5px 0 5px 0;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: 1px solid;
+  border-left: none;
+  border-right: none;
+}
+
+.input:hover{
+  cursor: text;
+}
+
+
+.btn{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #D35400;
+  border-radius: 10px;
+  border: 1px solid #D35400;
+}
+
+.btn:hover{
+  border: 1px solid #D35400;
+  transition: .5s;
+  color: #D35400;
+  background-color: white;
+  cursor: pointer;
 }
