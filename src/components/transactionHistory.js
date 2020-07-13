@@ -16,7 +16,7 @@ export const TransactionHistory = () => {
                 <hr />
                 <ul className='trans-history'>
                     {transactions.map(transaction => (
-                            <Transaction transaction={transaction} />
+                            <Transaction key={transaction.id} transaction={transaction} />
                         )
                     )}
                 </ul>
