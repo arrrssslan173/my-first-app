@@ -32,7 +32,7 @@ function AddTransaction() {
                     onChange={(e) => setDescription(e.target.value) }
                     />
 
-                <label>Amount</label>
+                <label>Amount <span className='ins' >(Add "-" sign for expenses)</span></label>
                     <input className='input' 
                     placeholder='Enter Amount' 
                     type='number' required
