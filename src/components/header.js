@@ -4,7 +4,7 @@ function Header() {
     return(
         <div className='header'>
             <h3>
-                Expense Tracker App by <br />
+                Expense Tracking App by <br />
                 <a href='https://www.linkedin.com/in/arrrssslan173' >Arslan Asif</a>
             </h3>
         </div>
